@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/gabriel/ros/testing_ws/devel/setup.sh
