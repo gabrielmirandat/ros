@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+  <name>fcr</name>
+  <version>0.1.0</version>
+  <description>fcr metapackage</description>
+
+  <maintainer email="gabrielmirandatt@gmail.com">Gabriel Miranda</maintainer>
+  <license>BSD</license>
+  <author email="gabrielmirandatt@gmail.com">Gabriel Miranda</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <export>
+   <metapackage />
+  </export>
+
+</package>
+

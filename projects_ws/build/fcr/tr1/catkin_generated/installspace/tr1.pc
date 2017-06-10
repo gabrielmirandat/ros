@@ -1,0 +1,8 @@
+prefix=/home/gabriel/ros/projects_ws/install
+
+Name: tr1
+Description: Description of tr1
+Version: 0.0.0
+Cflags: -I/home/gabriel/ros/projects_ws/install/include
+Libs: -L/home/gabriel/ros/projects_ws/install/lib 
+Requires: roscpp std_msgs geometry_msgs sensor_msgs tf p2os_msgs

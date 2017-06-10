@@ -1,0 +1,8 @@
+prefix=/home/gabriel/ros/projects_ws/devel
+
+Name: tr_final_robot
+Description: Description of tr_final_robot
+Version: 0.0.0
+Cflags: -I/home/gabriel/ros/projects_ws/src/fcr/tr_final_robot/include
+Libs: -L/home/gabriel/ros/projects_ws/devel/lib 
+Requires: roscpp std_msgs geometry_msgs sensor_msgs tf p2os_msgs
