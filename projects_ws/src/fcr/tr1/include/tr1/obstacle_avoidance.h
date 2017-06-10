@@ -6,8 +6,6 @@
 #include <sensor_msgs/LaserScan.h>
 #include <p2os_msgs/SonarArray.h>
 
-
-
 class ObstacleAvoidance
 {
 private:

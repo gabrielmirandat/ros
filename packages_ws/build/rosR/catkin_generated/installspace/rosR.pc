@@ -1,0 +1,8 @@
+prefix=/home/gabriel/ros/packages_ws/install
+
+Name: rosR
+Description: Description of rosR
+Version: 0.0.3
+Cflags: -I/home/gabriel/ros/packages_ws/install/include
+Libs: -L/home/gabriel/ros/packages_ws/install/lib -lrosR
+Requires: 

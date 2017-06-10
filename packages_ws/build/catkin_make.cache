@@ -1,0 +1,2 @@
+rosR
+-DCATKIN_DEVEL_PREFIX=/home/gabriel/ros/packages_ws/devel -DCMAKE_INSTALL_PREFIX=/home/gabriel/ros/packages_ws/install -G Unix Makefiles

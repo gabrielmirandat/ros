@@ -1,2 +1,0 @@
-# ros
-ROS projects
