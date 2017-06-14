@@ -26,11 +26,11 @@ void TopologicalMap::createCicMap()
 
     nodes_.resize(TOPO_MAP_NODE_SIZE);
 
-    double d_quad       = 1.30  + 0.2;
-    double y_mid        = 7.14  + 0.2;
-    double x_left       = 10.99 + 0.2;
-    double x_mid_right  = 6.65  + 0.2;
-    double x_corridor   = 3.47  + 0.2;
+    double d_quad       = 1.30  + 0.1; // 0.2 in all
+    double y_mid        = 7.14  + 0.1;
+    double x_left       = 10.99 + 0.1;
+    double x_mid_right  = 6.65  + 0.1;
+    double x_corridor   = 3.47  + 0.1;
 
     nodes_[A] = new Node(-27.38, 17.67, d_quad       , d_quad ); //A
     nodes_[B] = new Node(-27.20,  8.67, d_quad       , y_mid  ); //B
