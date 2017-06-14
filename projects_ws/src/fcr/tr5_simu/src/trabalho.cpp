@@ -553,10 +553,10 @@ void Trabalho::spinTrab5()
         {
             choosen_linear_vel_ = choosen_angular_vel_ = 0.0;
 
-            while((choosen_linear_vel_ < 0.1 || choosen_linear_vel_ > 0.3) ||
-                  (choosen_angular_vel_ < 0.1 || choosen_angular_vel_ > 0.3))
+            while((choosen_linear_vel_ < 0.1 || choosen_linear_vel_ > 1.0) ||
+                  (choosen_angular_vel_ < 0.1 || choosen_angular_vel_ > 1.0))
             {
-                std::cout << "Deve ser maior que 0.1 e menor que 0.3" << std::endl;
+                std::cout << "Deve ser maior que 0.1 e menor que 1.0" << std::endl;
                 std::cout << "[double] Informe a vel linear  x: ";               std::cin >> choosen_linear_vel_;
                 std::cout << "[double] Informe a vel angular z: ";               std::cin >> choosen_angular_vel_;
 

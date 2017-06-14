@@ -84,7 +84,7 @@ void PointKinematics::run()
 
 
             // checa se orientaçao ja esta adequada
-            if((fabs(ori_yaw_ - destiny_yaw_) < 4.0) || (fabs(ori_yaw_ - destiny_yaw_) > 356.0))
+            if((fabs(ori_yaw_ - destiny_yaw_) < 2.0) || (fabs(ori_yaw_ - destiny_yaw_) > 358.0))
             {
                 new_angular_vel_ = 0.0;
                 need_update_orientation_ = false;
@@ -102,7 +102,7 @@ void PointKinematics::run()
 
         // chegou no objetivo
         if(sqrt((ori_x_ - destiny_x_)*(ori_x_ - destiny_x_) + \
-          (ori_y_ - destiny_y_)*(ori_y_ - destiny_y_)) < 1.0)
+          (ori_y_ - destiny_y_)*(ori_y_ - destiny_y_)) < 0.5)
         {
             new_linear_vel_ = 0.0;
             found_objective_ = true;
