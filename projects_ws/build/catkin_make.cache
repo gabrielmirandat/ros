@@ -1,2 +1,0 @@
-beginner_tutorials:fcr/tr1:fcr/tr2:fcr/tr3:fcr/tr5_simu:fcr/tr5_zrobot
--DCATKIN_DEVEL_PREFIX=/home/gabriel/ros/projects_ws/devel -DCMAKE_INSTALL_PREFIX=/home/gabriel/ros/projects_ws/install -G Unix Makefiles
