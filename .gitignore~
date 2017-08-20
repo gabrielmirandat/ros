@@ -1,0 +1,9 @@
+# Files
+*.o
+*.pro.user
+
+# Dir
+bin/
+build/
+devel/
+\#resources/
