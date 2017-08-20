@@ -32,5 +32,3 @@ SOURCES +=  src/graph.cpp \
 
 
 LIBS    += -lopencv_core -lopencv_highgui -lopencv_imgproc -lopencv_video -lboost_timer -lboost_system
-
-QMAKE_LFLAGS += -c
