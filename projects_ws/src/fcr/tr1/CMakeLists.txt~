@@ -23,5 +23,5 @@ include_directories(
   ${catkin_INCLUDE_DIRS}
 )
 
-add_executable(tr1_node src/obstacle_avoidance_node.cpp src/obstacle_avoidance.cpp)
+add_executable(tcc_node src/main.cpp src/tcc.cpp)
 target_link_libraries(tr1_node ${catkin_LIBRARIES})

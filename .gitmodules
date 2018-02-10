@@ -1,6 +1,0 @@
-[submodule "projects_ws/src/robotics_topics/cic_motion_model"]
-	path = projects_ws/src/robotics_topics/cic_motion_model
-	url = https://github.com/gabrielmirandat/cic_motion_model.git
-[submodule "projects_ws/src/tcc"]
-	path = projects_ws/src/tcc
-	url = https://github.com/gabrielmirandat/tcc.git

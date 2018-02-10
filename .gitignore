@@ -2,7 +2,7 @@
 *.o
 *.pro.user
 
-# Dir
+# Ros
 bin/
 build/
 devel/
